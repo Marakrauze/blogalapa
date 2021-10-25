@@ -1,0 +1,140 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.logo {
+    color: white;
+}
+
+.linkdec {
+    text-decoration: none;
+    color: white;
+}
+
+.linkdec:hover {
+    text-decoration-line: underline;
+  }
+
+.linksikak {
+    color: grey;
+}
+
+.line {
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.hamburger {
+    display: none;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(7, 59, 38);
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+.link-section {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .link-section {
+    display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hero-text {
+        font-size: small;
+    }
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30pt;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(7, 59, 38);
+    font-size: 60pt;
+  }
+
+.leftcolumn {
+    padding-left: 5%;
+    width: 70%;
+}
+      
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(7, 59, 38);
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #0c4629;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
+  }
